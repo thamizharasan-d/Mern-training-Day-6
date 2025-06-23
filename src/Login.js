@@ -7,11 +7,10 @@ function Login() {
     const navigate = useNavigate();
     const handleChange = (e) => {
     setUser(e.target.value);
-    };
-
+    }; 
     const handleSubmit = () => {
         if (username === 'admin') {
-            navigate('/Home');
+            navigate('/abc');
         } else {
             alert('Invalid username');
         }
